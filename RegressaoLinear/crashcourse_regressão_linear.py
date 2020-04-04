@@ -98,7 +98,7 @@ plt.show()
 """# Vamos avaliar o modelo"""
 
 #Agora é mostrar as métricas
-print("Soma dos Erros ao Quadrado (SSE): %2.f " % np.sum((predicoesCo2 - co2_teste)**2))
+print("Soma dos Erros ao Quadrado (SSE): %.2f " % np.sum((predicoesCo2 - co2_teste)**2))
 print("Erro Quadrático Médio (MSE): %.2f" % mean_squared_error(co2_teste, predicoesCo2))
 print("Erro Médio Absoluto (MAE): %.2f" % mean_absolute_error(co2_teste, predicoesCo2))
 print ("Raiz do Erro Quadrático Médio (RMSE): %.2f " % sqrt(mean_squared_error(co2_teste, predicoesCo2)))
