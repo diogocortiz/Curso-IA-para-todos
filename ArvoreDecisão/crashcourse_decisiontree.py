@@ -27,12 +27,10 @@ import itertools
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeClassifier, export_graphviz
-from sklearn import preprocessing
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.externals.six import StringIO
 import pydotplus
-import matplotlib.image as mpimg
 from IPython.display import Image 
 
 # IMPORTANDO O DATASET PARA O DATAFRAME
