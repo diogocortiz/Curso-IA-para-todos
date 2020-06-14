@@ -102,4 +102,4 @@ print("Soma dos Erros ao Quadrado (SSE): %.2f " % np.sum((predicoesCo2 - co2_tes
 print("Erro Quadrático Médio (MSE): %.2f" % mean_squared_error(co2_teste, predicoesCo2))
 print("Erro Médio Absoluto (MAE): %.2f" % mean_absolute_error(co2_teste, predicoesCo2))
 print ("Raiz do Erro Quadrático Médio (RMSE): %.2f " % sqrt(mean_squared_error(co2_teste, predicoesCo2)))
-print("R2-score: %.2f" % r2_score(predicoesCo2 , co2_teste) )
+print("R2-score: %.2f" % r2_score(co2_teste, predicoesCo2) )
