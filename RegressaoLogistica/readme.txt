@@ -1,1 +1,1 @@
-Implmentação de Regressão Logística usando o framework Pytorch
+Implementação de Regressão Logística usando o framework Pytorch
